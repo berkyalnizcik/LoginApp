@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorPrimaryVariant">@color/activityBackgroundColor</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="activityBackgroundColor">#B52323</color>
+    <color name="textColor">#C5B04C</color>
+    <color name="edtTextBackgroundColor">#E2E0E0</color>
+    <color name="copyrightTextColor">#242527</color>
+    <color name="btnBackgroundColor">#242527</color>
+    <color name="btnTextColor">#C5B04C</color>
+    <color name="forgetBtnBackgroundColor">#00000000</color>
+    <color name="signUpBtnBackgroundColor">#00000000</color>
 </resources>
