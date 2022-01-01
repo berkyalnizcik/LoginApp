@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">LoginPage</string>
+    <string name="app_name">LoginApp</string>
     <string name="login">Login</string>
     <string name="username">Username</string>
-    <string name="phone_number_username_or_email">Phone number, username or email</string>
     <string name="type_your_username">Type your username</string>
     <string name="password">Password</string>
     <string name="type_your_password">Type your password</string>
@@ -13,4 +12,11 @@
     <string name="welcome_message">WELCOME TO THE ARENA</string>
     <string name="copyright">2021 | Copyright by Berk YALNIZCIK</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="full_name">Full Name</string>
+    <string name="type_your_full_name">Type your full name</string>
+    <string name="back_to_main_page">Back To Main Page</string>
+    <string name="congratulations_message">Congratulations!! \n Sign up is successful. \n Welcome
+        to the our family. \n Now you can back to main page for log in.</string>
+    <string name="your_personal_information">Your Personal Information:</string>
+    <string name="tv_default">TextView</string>
 </resources>

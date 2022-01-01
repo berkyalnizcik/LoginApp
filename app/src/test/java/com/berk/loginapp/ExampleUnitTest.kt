@@ -1,4 +1,4 @@
-package com.berk.loginpage
+package com.berk.loginapp
 
 import org.junit.Test
 

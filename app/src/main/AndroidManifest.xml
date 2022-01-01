@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.berk.loginpage">
+    package="com.berk.loginapp">
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LoginPage">
+        android:theme="@style/Theme.LoginApp">
         <activity
-            android:name=".LoginActivity"
+            android:name="com.berk.loginapp.LoginConfirmActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.berk.loginapp.SignupConfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.berk.loginapp.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.berk.loginapp.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.berk.loginapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

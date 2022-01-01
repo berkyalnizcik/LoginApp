@@ -1,4 +1,4 @@
-package com.berk.loginpage
+package com.berk.loginapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

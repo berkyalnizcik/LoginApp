@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="28dp"
-    tools:context=".LoginActivity">
+    tools:context=".SignupActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/login"
+            android:text="@string/sign_up"
             android:textColor="@color/textColor"
             android:textSize="52sp"
             android:textStyle="bold|italic" />
@@ -41,6 +41,33 @@
 
         <TextView
             android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="@string/full_name"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/edtFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_text_background"
+            android:drawableStart="@drawable/ic_username"
+            android:ems="10"
+            android:hint="@string/type_your_full_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="8dp"
@@ -67,7 +94,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="8dp"
@@ -85,70 +112,16 @@
             android:importantForAutofill="no"
             android:inputType="numberPassword"
             android:textSize="20sp" />
-
-
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <CheckBox
-            android:id="@+id/cb_rememberMe"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/remember_me"
-            android:textColor="@color/btnTextColor"
-            android:textSize="12sp" />
-
-        <Button
-            android:id="@+id/btn_forget"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:backgroundTint="@color/forgetBtnBackgroundColor"
-            android:text="@string/forgot_password"
-            android:textColor="@color/btnTextColor"
-            android:textSize="12sp"
-            android:textAllCaps="false"
-            style="?android:attr/borderlessButtonStyle"/>
-
-    </RelativeLayout>
-
     <Button
-        android:id="@+id/btn_logIn"
+        android:id="@+id/btn_SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/btnBackgroundColor"
-        android:text="@string/log_in"
+        android:text="@string/sign_up"
         android:textColor="@color/btnTextColor"
         app:cornerRadius="4dp" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:gravity="center"
-    android:layout_marginTop="64dp">
 
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/don_t_have_an_account"
-        android:textSize="16sp"
-        android:textColor="@color/btnBackgroundColor"/>
-    <Button
-        android:id="@+id/btn_SignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sign_up"
-        android:backgroundTint="@color/signUpBtnBackgroundColor"
-        android:textColor="@color/btnTextColor"
-        android:textSize="12sp"
-        android:textAllCaps="false"
-        style="?android:attr/borderlessButtonStyle"/>
-</LinearLayout>
 </LinearLayout>

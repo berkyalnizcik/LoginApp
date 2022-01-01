@@ -7,6 +7,7 @@
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/activity_background.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/btn_background.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/edt_text_background.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/ic_confirm.xml" value="0.15185185185185185" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/ic_password.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/ic_username.xml" value="0.17962962962962964" />
@@ -14,7 +15,10 @@
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/img_login_logo.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/drawable/loginimage.xml" value="0.17962962962962964" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/layout/activity_login_confirm.xml" value="0.25" />
         <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/berkk/AndroidStudioProjects/LoginPage/app/src/main/res/layout/activity_signup_confirm.xml" value="0.22" />
       </map>
     </option>
   </component>
