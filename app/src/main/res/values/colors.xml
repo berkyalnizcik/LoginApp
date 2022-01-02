@@ -11,6 +11,6 @@
     <color name="copyrightTextColor">#242527</color>
     <color name="btnBackgroundColor">#242527</color>
     <color name="btnTextColor">#C5B04C</color>
-    <color name="forgetBtnBackgroundColor">#00000000</color>
+<!--    <color name="forgetBtnBackgroundColor">#00000000</color>-->
     <color name="signUpBtnBackgroundColor">#00000000</color>
 </resources>

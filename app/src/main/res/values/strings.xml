@@ -5,8 +5,8 @@
     <string name="type_your_username">Type your username</string>
     <string name="password">Password</string>
     <string name="type_your_password">Type your password</string>
-    <string name="remember_me">Remember Me</string>
-    <string name="forgot_password">Forgot Password?</string>
+<!--    <string name="remember_me">Remember Me</string>-->
+<!--    <string name="forgot_password">Forgot Password?</string>-->
     <string name="log_in">Log In</string>
     <string name="sign_up">Sign Up</string>
     <string name="welcome_message">WELCOME TO THE ARENA</string>
